@@ -55,3 +55,4 @@ public class MainArithmeticOperations {
         System.out.println("minInt - 1 = " + (minInt - 1)); // переполнение!
     }
 }
+
