@@ -1,7 +1,4 @@
 public class Main {
-    public static void main() {
-        main((String[]) null);
-    }
 
     public static void main(String... args) {
         // 0) Арифметические операции над двумя int
