@@ -1,7 +1,9 @@
-package Tests;
+public class Main {
+    public static void main() {
+        main((String[]) null);
+    }
 
-public class MainArithmeticOperations {
-    public static void main(String[] args) {
+    public static void main(String... args) {
         // 0) Арифметические операции над двумя int
         System.out.println("=== 0) Операции над int ===");
         int a = 123;
@@ -30,8 +32,8 @@ public class MainArithmeticOperations {
 
         System.out.println(x + " < " + y + " = " + (x < y));
         System.out.println(x + " > " + y + " = " + (x > y));
-        System.out.println(x + " >= " + y + " = " + (x >= y));
         System.out.println(x + " <= " + y + " = " + (x <= y));
+        System.out.println(x + " >= " + y + " = " + (x >= y));
         System.out.println(x + " == " + y + " = " + (x == y));
         System.out.println(x + " != " + y + " = " + (x != y));
 
